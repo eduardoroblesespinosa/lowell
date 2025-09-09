@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lowell Herb Co.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div id="age-gate-container"></div>
+
+    <div id="main-content" class="hidden">
+        <header id="header-container"></header>
+
+        <main>
+            <div id="hero-container"></div>
+            
+            <div id="explore-collection-container"></div>
+            
+            <div id="flower-container"></div>
+            
+            <div id="pre-rolls-container"></div>
+
+            <div id="vapes-container"></div>
+            
+            <div id="featured-container"></div>
+            
+            <div id="about-story-container"></div>
+
+            <div id="find-us-container"></div>
+
+            <section id="product-detail" class="product-detail hidden">
+                <!-- Content will be populated by JS -->
+            </section>
+        </main>
+
+        <footer id="footer-container"></footer>
+    </div>
+
+</body>
+</html>
